@@ -1,0 +1,50 @@
+.Tab{
+    padding: 2%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 1px #d1cfcf;
+    border-radius: 5px;
+}
+#close-icon{
+    border: 0px;
+    background-color: #ffffff;
+}
+#close-icon:hover{
+    background-color: #d3d2d2;
+    box-shadow: 0px 0px 4px 1px #d1cfcf;
+    border-radius: 5px;
+}
+.Book-Wrapper{
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+.Book-Thumbnail{
+    width: 40%;
+    background-color: #ffffff;
+    display: inline-block;
+    text-align: center;
+}
+.Book-Details{
+    width: 60%;
+    display: inline-block;
+    vertical-align: text-bottom;
+    padding-left: 10px;
+}
+.Book-Details .Title{
+    font-size: 3vw;
+}
+.Book-Details .Author,.Book-Details .Year{
+    font-size: 1.5vw;
+}
+.Book-Thumbnail img{
+    height: 25vw;
+}
+.Number-Input{
+    width: 100px;
+    padding: 5px
+}
+.admin-access{
+    display: inline-block;
+}
+.input-wrapper{
+    margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+.Button,.Button:hover{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #FFFFFF;
+    padding: 7px;
+    background: #64ba7b;
+    margin: 0px 10px;
+}
+
+.Green-Btn{
+    background-image: linear-gradient( to bottom, #448a58, #64ba7b );
+}
+.Green-Btn:hover{
+    background-image: linear-gradient( to top, #448a58, #64ba7b );
+}
+.Red-Btn{
+    background-image: linear-gradient( to bottom, #9d1717, #c14747 );
+}
+.Red-Btn:hover{
+    background-image: linear-gradient( to top, #9d1717, #c14747 );
+}
+.Blue-Btn{
+    background-image: linear-gradient( to bottom, #121374, #5f67d1 );  
+}
+.Blue-Btn:hover{
+    background-image: linear-gradient( to top, #121374, #5f67d1 );
+}
