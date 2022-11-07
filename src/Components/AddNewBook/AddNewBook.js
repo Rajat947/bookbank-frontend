@@ -41,8 +41,8 @@ function AddNewBook() {
                 method:'POST',
                 headers: {'Content-Type':'application/json'},
                 body: JSON.stringify({
-                    'name': title,
-                    'author': author,
+                    'name': title.toLowerCase(),
+                    'author': author.toLowerCase(),
                     'copies': number,
                     'yop' : year
                 }) 
